@@ -6,6 +6,10 @@
     "module": "es6",
     "target": "es5",
     "allowJs": true
-  }
+  },
+  "files": [
+    "./src/index.ts",
+    "./node_modules/phaser-ce/typescript/phaser.comments.d.ts"
+  ]
 }
 
