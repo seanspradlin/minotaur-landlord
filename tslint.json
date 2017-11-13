@@ -1,4 +1,14 @@
 {
-  "extends": "tslint-config-airbnb"
+  "extends": "tslint:recommended",
+  "rules": {
+    "indent": [true, "spaces", 2],
+    "quotemark": [true, "single"],
+    "eofline": true,
+    "trailing-comma": [true, {
+      "multiline": "always",
+      "singleline": "never"
+    }],
+    "no-console": [false]
+  }
 }
 

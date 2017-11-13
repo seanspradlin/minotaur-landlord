@@ -1,7 +1,9 @@
 import 'p2';
 import 'pixi';
+
 import 'phaser';
 
-const game = new Phaser.Game();
-console.log(game.count);
+import Game from './game';
 
+const game = new Game();
+console.log(game.count);
